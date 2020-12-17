@@ -1,4 +1,4 @@
-# toolbox
+# toolbox [view wishlist](https://www.notion.so/Toolbox-wishlist-0c1faba79f9a42238cf56c79022bc3d8)
 
 ## replaceString.js
 
