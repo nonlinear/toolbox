@@ -1,10 +1,8 @@
-# toolbox 
-
-
+# nonlinear/toolbox 
 
 Some tested-and-true tools for creative code (mostly p5js).
 
-![](./airtable.svg)
+Visit [nonlinear.nyc/toolbox](https://www.nonlinear.nyc/toolbox/) for the updated list.
 
 ## Install as a submodule
 
