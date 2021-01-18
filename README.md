@@ -1,22 +1,8 @@
 # toolbox 
 
-Some tested-and-true tools for creative code (mostly p5js). [view wishlist](https://www.notion.so/Toolbox-wishlist-0c1faba79f9a42238cf56c79022bc3d8)
+Some tested-and-true tools for creative code (mostly p5js).
 
-## replaceString.js
-
-replaces one string with another ([example](https://www.nonlinear.nyc/replace/))
-
-1. define scope to watch. default is class `.replaceString`
-1. import `replaceString.js` on your code
-1. call it: `replaceString('initialString', 'finalString', 'target');` where:
-	1. `initialString` is the string you want to replace
-	1. `finalString` is the string you want to change it to
-	1. `target` is optional, in case you want to watch a different element (default: `.replaceString`)
-
-## Grid.js
-
-canvas grid
-column only, regular grid only 
+Visit [nonlinear.nyc/toolbox](https://www.nonlinear.nyc/toolbox/) for the updated list.
 
 ## Install as a submodule
 
