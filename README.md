@@ -4,7 +4,7 @@
 
 Some tested-and-true tools for creative code (mostly p5js).
 
-![](./html.svg)
+![](./airtable.svg)
 
 ## Install as a submodule
 
