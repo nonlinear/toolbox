@@ -1,10 +1,10 @@
 # toolbox 
 
-![](./html.svg)
+
 
 Some tested-and-true tools for creative code (mostly p5js).
 
-Visit [nonlinear.nyc/toolbox](https://www.nonlinear.nyc/toolbox/) for the updated list.
+![](./html.svg)
 
 ## Install as a submodule
 
