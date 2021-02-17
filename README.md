@@ -14,8 +14,8 @@ Visit [nonlinear.nyc/toolbox](https://www.nonlinear.nyc/toolbox/) for the update
 
 ## Import object
 
-- Jekyll: `{% include "toolbox/FIENAME.EXTENSION" %}`
-- Hugo: `{{< toolbox/FILENAME >}}`
+- Jekyll: Use [Jekyll include rules](https://jekyllrb.com/docs/includes/), and remember to add `toolbox` folder to it
+- Hugo: Use [Jekyll shortcode rules](https://gohugo.io/content-management/shortcodes/), and remember to add `toolbox` folder to it
 
 ## Troubleshoot: submodule + githubpages
 
