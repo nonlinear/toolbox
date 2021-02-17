@@ -6,12 +6,23 @@ Visit [nonlinear.nyc/toolbox](https://www.nonlinear.nyc/toolbox/) for the update
 
 ## Install as a submodule
 
-Go to the folder on your project you want to add toolbox folder (for instance, `_includes/` if you use jekyll), then run `git submodule add https://github.com/nonlinear/toolbox.git toolbox`
 
-## Troubleshoot: jekyll submodule + githubpages
+1. Go to folder on your project:
+	- Jekyll: `_includes/`
+	- Hugo: `layouts/shortcodes`
+1. Run `git submodule add https://github.com/nonlinear/toolbox.git toolbox`
 
-Github generates jekyll server-side, and submodule breaks because it renames folder with commit. Jekyll is meant to be client-side, so there's a way to prevent github from rebuilding it server-side:
+## Import object
 
-1. force jekyll to generate flat blog on `docs/` folder, instead of default `_site/` by adding `destination: docs` on `config.yml`
+- Jekyll: `{% include "toolbox/FIENAME.EXTENSION" %}`
+- Hugo: `{{< toolbox/FILENAME >}}`
+
+## Troubleshoot: submodule + githubpages
+
+Github generates flat blogs server-side, so submodule breaks because it renames folder with commit. flat blogs are meant to be client-side, so there's a way to prevent github from rebuilding it server-side:
+
+1. force jekyll or hugo to generate flat blog on `docs/` folder, instead of default `_site/` 
+	- Jekyll: add `destination: docs` on `config.yml`
+	- Hugo: add `publishDir = "docs"` on `config.toml`
 1. push changes
 1. on github settings, tell githubpages to point to `docs/` folder instead
